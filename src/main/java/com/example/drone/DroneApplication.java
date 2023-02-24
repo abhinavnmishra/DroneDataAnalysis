@@ -13,6 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class DroneApplication {
 
     public static void main(String[] args) {
+        System.out.println("hello");
         SpringApplication.run(DroneApplication.class, args);
     }
 
